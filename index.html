@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fifteen Puzzle</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div class="container">
+	<h1>Fifteen Puzzle</h1>
+        <p>
+            The goal of the fifteen puzzle is to un-jumble its fifteen squares by repeatedly making moves that slide
+            squares into the empty space. How quickly can you solve it?
+        </p>
+        <span id="youwon"></span>
+		<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01" style="width: auto;height: auto;float: initial;">
+</div>
+<div>Click on the image to select</div>
+<div style="display:flex; justify-content: center;">
+
+<img src="img/3.jpg"  alt="test" id="image-1" style="height:50px;width:50px">
+<img src="img/4.png" id="image-2" alt="4-image" style="height:50px;width:50px">
+<img src="img/5.png" id="image-3" alt="5-image" style="height:50px;width:50px">
+<img src="img/6.png" id="image-4" alt="6-image" style="height:50px;width:50px">
+<img src="img/7.png" id="image-5" alt="7-image" style="height:50px;width:50px">
+</div>
+		<div class="info-div">
+			Time: <span id="time-div">0</span>
+			Steps: <span id="step-div">0</span>
+		</div>
+		<div id="game-div">
+		</div>
+		<div class="button-group-div">
+			<button class="red-button button" id="start">Shuffle</button>
+			<button class="blue-button button" id="change"></button>
+			<button class="green-button button" id="difficulty">Easy</button>
+		</div>
+		<button class="gray-button button" id="recover">Cheat</button>
+		<p>
+            American puzzle author and mathematician Sam Loyd is often falsely credited with creating the puzzle; indeed,
+            Loyd claimed from 1891 until his death in 1911 that he invented it. The puzzle was actually created around 1874
+            by Noyes Palmer Chapman, a postmaster in Canastota, New york.
+        </p>
+		
+        <p>
+           <a href="http://www.jslint.com/" target="_blank"><img src="jslint.png" alt="JSLint"/> </a>
+            <a href="https://jigsaw.w3.org/css-validator/" target="_blank"><img src="w3c-css.png" alt="W3C CSS" /> </a>
+            <a href="https://validator.w3.org/" target="_blank"><img src="w3c-xhtml.png" alt="W3C XHTML" /> </a>
+        </p>
+	</div>
+</body>
+</html>
